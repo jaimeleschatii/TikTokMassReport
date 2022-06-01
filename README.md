@@ -8,11 +8,7 @@
  __/ |                         Tiktok Mass Reporter              
  |___/
 ```
-```
-```
 <img src="https://cdn.discordapp.com/attachments/980194498565001249/981592765509017640/unknown.png">
-```
-```
 
 How to use ?
 
@@ -26,5 +22,3 @@ Entre Threads
 <img src="https://cdn.discordapp.com/attachments/980194498565001249/981593728135331900/unknown.png">
 <img src="https://cdn.discordapp.com/attachments/980194498565001249/981593834830045204/unknown.png">
 ✅Press Enter sent report
-```
-```
