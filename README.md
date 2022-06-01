@@ -16,6 +16,7 @@
 ```
 ```
 How to use ?
+
 click report on profile
 <img src="https://cdn.discordapp.com/attachments/980194498565001249/981593002990522398/unknown.png">
 check ctrl shift i requests and copy link
