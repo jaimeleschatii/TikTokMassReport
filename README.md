@@ -8,4 +8,3 @@
  __/ |                         Tiktok Mass Reporter              
  |___/
 ```
-<img src="https://cdn.discordapp.com/attachments/980194498565001249/981592765509017640/unknown.png">
