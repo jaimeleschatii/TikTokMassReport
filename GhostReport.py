@@ -1,6 +1,6 @@
 import threading
 import requests
-from colorama import Fore, Back, Style
+from colorama import Fore, Back, Style, init;init()
 import ctypes
 
 count = 0
@@ -38,9 +38,12 @@ class Ghost:
                 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36'
                 }
             GhostPost = requests.post(link, headers=headers)
+            
             if GhostPost.status_code == 200:
                 count += 1        
-                print(f"{Fore.RED}[{Fore.LIGHTRED_EX}+{Fore.RED}] {Fore.LIGHTRED_EX}Succes report "+username)
+                print(f"{Fore.RED}[{Fore.LIGHTRED_EX}+{Fore.RED}] {Fore.LIGHTGREEN_EX}Succes report "+username)
+            if GhostPost.status_code == 403:
+                print(f"{Fore.RED}[{Fore.LIGHTRED_EX}+{Fore.RED}] {Fore.LIGHTRED_EX}Error: report "+username)
 
     threads = []
     for threads in range(int(thrd)):
