@@ -1,7 +1,5 @@
-import threading
-import requests
+import threading, ctypes, requests, os
 from colorama import Fore, Back, Style, init;init()
-import ctypes
 
 count = 0
 
@@ -25,7 +23,7 @@ class Ghost:
     def main():
         while True:
             global count
-            ctypes.windll.kernel32.SetConsoleTitleW("report " + str(count))
+            ctypes.windll.kernel32.SetConsoleTitleW("report " + str(count ) +  " github.com/jaimeleschatii")
             headers = {
                 'authority': 'www.tiktok.com',
                 'sec-fetch-dest': 'empty',
